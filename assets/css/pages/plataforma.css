@@ -1,0 +1,36 @@
+:root{
+    --bg-primary-color: #ffffff;
+    --bg-second-color: #323232; 
+    --bg-third-color: #1E1E1E;
+    --txt-primary-color: #323232;
+    --txt-second-color: #FF0002;
+    --color-highlighted: #BE0000;
+    --black-25: rgba(0, 0, 0, 0.253); 
+    --color-efect: rgb(50, 50, 50, 0.170); 
+    --txt-color-footer: #7A7A7A; 
+    --border-efect: 1px solid #1E1E1E; 
+    --border-radius: 15px;
+    --border-radius-card: 15px 0px;
+    --border-radius-gold: 15px 15px 0px 0px; 
+}
+
+.video-plataforma{
+    background: #00000018;
+    padding-top: 1rem;
+    height: 30rem;
+    border-radius: 50px 0;
+    cursor: pointer;
+}
+.video-slider{
+    height: 15rem;
+    width: 10rem;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.video-slider:hover{
+    opacity: 1;
+}
+.video-active{
+    opacity: 1;
+}
