@@ -2,33 +2,33 @@ const navList = document.querySelector(".navbar-itens");
 const btn = document.querySelector(".btnOpen"); 
 const cancel = document.querySelector(".btnClose"); 
 
-function fecharBars(e){
-    navList.style.left = "-100%"
-    btn.style.display = "block"
-    cancel.style.display = "none"
-}
+// function fecharBars(e){
+//     navList.style.left = "-100%"
+//     btn.style.display = "block"
+//     cancel.style.display = "none"
+// }
 
-function abrirBars(e){
-    navList.style.left = "0"
-    btn.style.display = "none"
-    cancel.style.display = "block"
-}
+// function abrirBars(e){
+//     navList.style.left = "0"
+//     btn.style.display = "none"
+//     cancel.style.display = "block"
+// }
 
-window.addEventListener("scroll", (e)=>{
+// window.addEventListener("scroll", (e)=>{
 
-    if(navList.getBoundingClientRect().left == 0){
-        fecharBars()
-    }
-    else{
-        btn.addEventListener("click", ()=>{
-            abrirBars()
+//     if(navList.getBoundingClientRect().left == 0){
+//         fecharBars()
+//     }
+//     else{
+//         btn.addEventListener("click", ()=>{
+//             abrirBars()
             
-            cancel.addEventListener("click", ()=>{
-                fecharBars()
-            })
-        })
-    }
-})
+//             cancel.addEventListener("click", ()=>{
+//                 fecharBars()
+//             })
+//         })
+//     }
+// })
 
 // window.addEventListener("resize", () => {
 //     const width = window.innerWidth;
