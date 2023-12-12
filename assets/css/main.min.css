@@ -13,6 +13,11 @@
     transition: all .5s;
 }
 
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+} 
+
 body{
     scroll-behavior: smooth;
     transition: all .5s;
