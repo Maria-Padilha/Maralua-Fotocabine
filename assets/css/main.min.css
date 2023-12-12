@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import url(pages/home.css);
+@import url(pages/cabine.css);
+@import url(pages/totem.css);
+@import url(pages/plataforma.css);
+@import url(pages/combo1.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    transition: all .5s;
+}
+
+body{
+    scroll-behavior: smooth;
+    transition: all .5s;
+    background: #83828236;
+}
+
+:root{
+    --bg-primary-color: #ffffff;
+    --bg-second-color: #323232; 
+    --bg-third-color: #1E1E1E;
+    --txt-primary-color: #323232;
+    --txt-second-color: #FF0002;
+    --color-highlighted: #BE0000;
+    --black-25: rgba(0, 0, 0, 0.253); 
+    --color-efect: rgb(50, 50, 50, 0.170); 
+    --txt-color-footer: #7A7A7A; 
+    --border-efect: 1px solid #1E1E1E; 
+    --border-radius: 15px;
+    --border-radius-card: 15px 0px;
+    --border-radius-gold: 15px 15px 0px 0px; 
+}
+
+a{
+    color: var(--bg-primary-color);
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    padding: .5rem 2.5rem;
+    border: none;
+    background: var(--color-highlighted);
+    color: var(--bg-primary-color);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: var(--txt-second-color);
+}
+
+h2{
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+h2 span{
+    color: var(--txt-second-color);
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 327px){
+    .btn{
+        padding: 0.5rem 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}

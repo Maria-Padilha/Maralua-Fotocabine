@@ -1,0 +1,41 @@
+.combo{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.photos-combo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.photos-combo img{
+    width: 30rem;
+    height: 27rem;
+}
+
+.packages-content.combo{
+    margin-top: 0;
+}
+.packages-card.combo{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 497px){
+    .photos-combo img{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 357px){
+    .photos-combo img{
+        width: 18rem;
+    }
+}
