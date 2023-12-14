@@ -16,3 +16,6 @@
 
 ## Preview
 ![imagem preview do site maralua](https://github.com/Maria-Padilha/Maralua-Fotocabine/assets/109801423/78de8469-366a-4f08-b8be-642393c16f5e)
+
+💻
+<a href="https://maria-padilha.github.io/Maralua-Fotocabine/" target="_blank">Visite a Página</a>
