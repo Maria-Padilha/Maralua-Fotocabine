@@ -15,4 +15,4 @@
 ![FIGMA](https://img.shields.io/badge/FIGMA-FF69B4?style=for-the-badge&logo=figma&logoColor=white)&nbsp;
 
 ## Preview
-![Captura de tela 2023-12-14 090649](https://github.com/Maria-Padilha/Maralua-Fotocabine/assets/109801423/cde56afb-80ce-4327-b275-2047753cd272)
+![imagem mostrando a página home do site](https://github.com/Maria-Padilha/Maralua-Fotocabine/assets/109801423/cde56afb-80ce-4327-b275-2047753cd272)
